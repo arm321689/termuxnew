@@ -1,4 +1,3 @@
-#! /bin/bash
 echo '"Installing....'
-bash -c 'tar -zxf /sdcard/termux-backup.tar.gz -C /data/data/com.termux/files --recursive-unlink --preserve-permissions'
+tar -zxf /sdcard/termux-backup.tar.gz -C /data/data/com.termux/files --recursive-unlink --preserve-permissions
 echo '"Finish....'
